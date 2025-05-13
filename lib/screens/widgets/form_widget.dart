@@ -54,6 +54,7 @@ class _FormScreenState extends State<FormScreen> {
       } else {
         provider.updateItem(student);
       }
+
       Navigator.pop(context);
     }
   }
